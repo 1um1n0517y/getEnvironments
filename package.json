@@ -1,0 +1,19 @@
+{
+  "name": "@com.igt.gi/getEnvs",
+  "bin": {
+    "getEnvs": "./getEnvironmentsFromSfops.js"
+  },
+  "version": "1.0.5",
+  "description": "",
+  "main": "getEnvironmentsFromSfops.js",
+  "scripts": {
+    "start": "node getEnvironmentsFromSfops.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-scp": "0.0.11"
+  }
+}
